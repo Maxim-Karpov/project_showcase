@@ -1,0 +1,10 @@
+# machine_learning_projects
+Project outline
+In this miniproject, a drug discovery model has been built based on the drug activity data extracted from the Chembl database. I've selected HIV-1 integrase as the target protein for drug inhibition. The reasoning behind this is that just like the currently infamous virus COVID-19, HIV is also a retrovirus, which makes this an extra topical virus to target. Furthermore, the HIV-1 integrase also has plenthora of drug bioactivity data available for it on Chembl - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3471/.
+The first stage of this project encompassed acquiring drug activity data (IC50) from the Chembl database, processing the data for the exploratory data analysis and calculation of molecular descriptors, and saving the resulting dataset to a dedicated Google Drive folder. Each drug molecule was labelled active, intermediate, and inactive based on the set IC50 threshold values.
+In the second section, the data was used to calculate molecular macro descriptors (Lipinski descriptors) such as molecular weight, and number of hydrogen acceptors. These were used for exploratory data analysis, where, via statistical methods (Mann-Whitney U Test), an attempt to witness statistical significance based on the drug activity and molecular descriptors was made.
+In the third section, PaDEL was used to calculate molecular micro descriptors to obtain data with improved precision for model construction. This data was used as an input into a random forest regression algorithm which was then assessed for its accuracy of drug activity prediction.
+Finally, more algorithms were tested and compared based on their performance and speed of computation to provide best candidates for potential hyperparameter optimisation or web-deployment.
+
+Instructions
+The notebook must be ran on Google Colab as this will allow the integration of Google Drive, which is essential for the code to run correctly. Alternatively, take a look on my GitHub for the code that has been ran already - https://github.com/MaximKarpov1/machine_learning_projects/blob/main/Drug_discovery_ML_project.ipynb.
