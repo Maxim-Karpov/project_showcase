@@ -1,4 +1,3 @@
-# machine_learning_projects
 Project outline
 In this miniproject, a drug discovery model has been built based on the drug activity data extracted from the Chembl database. I've selected HIV-1 integrase as the target protein for drug inhibition. The reasoning behind this is that just like the currently infamous virus COVID-19, HIV is also a retrovirus, which makes this an extra topical virus to target. Furthermore, the HIV-1 integrase also has plenthora of drug bioactivity data available for it on Chembl - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3471/.
 The first stage of this project encompassed acquiring drug activity data (IC50) from the Chembl database, processing the data for the exploratory data analysis and calculation of molecular descriptors, and saving the resulting dataset to a dedicated Google Drive folder. Each drug molecule was labelled active, intermediate, and inactive based on the set IC50 threshold values.
