@@ -1,4 +1,4 @@
-This python script contains functions useful for bioinfromatics, created by completing end of chapter 8 exercises in the SysMIC python course 
+This python script contains functions useful for bioinfromatics, created by completing end of chapter 8 exercises in the SysMIC python course. The functionalities include: reading a FASTA file, converting DNA sequence to cDNA sequence, converting a cDNA sequence to an mRNA sequence, converting an mRNA sequence to a peptide sequence, printing all peptide reading frames, finding and extracting exon sequences at each reading frame. In conjunction, these functions simulate the process of gene transcription + translation.
 
 Last modified: 11/04/20
 
